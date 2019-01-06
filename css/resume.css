@@ -176,7 +176,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #1066ef !important;
+  background: url("../img/azul.jpg") !important;
+  background-size: cover !important;                      /* make image fit to full size*/
+  background-repeat: no-repeat !important;
+  background-position: center center !important;              /* center the image */
+  /*background-color: #1066ef !important;*/
 }
 
 .text-primary {
